@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search_radius"
+            android:icon="@drawable/ic_action_name"
+            android:title="@string/nav_search_radius" />
+        <item
+            android:id="@+id/nav_transportation_type"
+            android:icon="@drawable/ic_nav_trans_type"
+            android:title="@string/nav_transportation_type"/>
+        <item
+            android:id="@+id/nav_notification_type"
+            android:icon="@drawable/ic_nav_notif_type"
+            android:title="@string/nav_notification_type"
+            />
+        <item
+            android:id="@+id/nav_current_status"
+            android:icon="@drawable/ic_nav_current_status"
+            android:title="@string/nav_current_status"
+            />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_nav_settings"
+            android:title="@string/action_settings"
+            />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

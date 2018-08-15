@@ -1,0 +1,56 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+    <!--TODO Update Icons for Each of the Headers-->
+
+    <header
+        android:fragment="com.dustyguys.actionbartrial.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_username" />
+
+    <header
+        android:fragment="com.dustyguys.actionbartrial.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_general" />
+
+    <header
+        android:fragment="com.dustyguys.actionbartrial.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_notifications" />
+
+    <header
+        android:fragment="com.dustyguys.actionbartrial.SettingsActivity$DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_data_sync" />
+
+    <header
+        android:fragment="com.dustyguys.actionbartrial.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_password" />
+
+    <header
+        android:fragment="com.dustyguys.actionbartrial.SettingsActivity$DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_history" />
+
+    <header
+        android:fragment="com.dustyguys.actionbartrial.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_frequented_places" />
+
+    <header
+        android:fragment="com.dustyguys.actionbartrial.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_units_distance" />
+
+    <header
+        android:fragment="com.dustyguys.actionbartrial.SettingsActivity$DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_about" />
+
+    <header
+        android:fragment="com.dustyguys.actionbartrial.SettingsActivity$DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_signout" />
+
+</preference-headers>
